@@ -22,43 +22,6 @@
         android:orientation="vertical"
         app:layout_constraintGuide_begin="197dp" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="195dp"
-        android:layout_height="260dp"
-        android:src="@drawable/civic"
-        app:layout_constraintBottom_toTopOf="@+id/textView4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.523"
-        app:layout_constraintStart_toStartOf="@+id/guideline4" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="195dp"
-        android:layout_height="260dp"
-        android:src="@drawable/hummer"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
-        app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="195dp"
-        android:layout_height="260dp"
-        android:src="@drawable/lamborghini"
-        app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="195dp"
-        android:layout_height="260dp"
-        android:src="@drawable/terios"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/guideline4"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
-
     <TextView
         android:id="@+id/textView3"
         android:layout_width="83dp"
@@ -93,7 +56,7 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        tools:layout_editor_absoluteY="626dp" />
 
     <TextView
         android:id="@+id/textView6"
@@ -105,6 +68,6 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+        tools:layout_editor_absoluteY="626dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

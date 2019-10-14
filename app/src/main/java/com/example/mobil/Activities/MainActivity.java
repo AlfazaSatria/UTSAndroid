@@ -1,14 +1,15 @@
-package com.example.mobil;
+package com.example.mobil.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
 import com.example.mobil.Fragments.Jenis;
 import com.example.mobil.Fragments.Sewa;
+import com.example.mobil.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -34,5 +35,9 @@ public class MainActivity extends AppCompatActivity {
         fragmentTransaction.commit();
     }
 
+    public void handlerClikInput(View view) {
+        Intent intent = new Intent(this, Input.class);
+        startActivity(intent);
+    }
 
 }
